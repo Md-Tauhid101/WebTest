@@ -1,0 +1,137 @@
+/* bodt{background-color: #F4ECE6;}  #E6DACE */
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar{
+    margin: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-items{
+    list-style-type: none;
+}
+
+
+.navbar-items{
+    display: flex;
+    gap: 50px;
+    color: rgb(53, 53, 53);
+}
+
+.items{
+    padding: 5px 20px 5px 20px;
+    border: 0.5px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.items:hover{
+    background-color: #0050ff;
+    color: white;
+    transition: 0.3s;
+}
+
+/* ----------------------------------------------------------- */
+
+.main-bg-body{
+    background-color: #E6DACE;
+    z-index: -1;
+    width: 600px;
+    height: 800px;
+}
+
+.main-body{
+    display: flex;
+    position: absolute;
+    top: 300px;
+    left: 400px;
+    gap: 30px;
+}
+
+.left{
+    background-color: #F4ECE6;
+    height: 500px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.2) -10px 5px 15px;
+}
+
+.left-1{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-image: url(photo1.webp);
+    margin: 40px 0px 40px 0px;
+}
+
+.left-4{
+    position: absolute;
+    height: 50px;
+    width: 400px;
+    background-color: white;
+    top: 450px;
+}
+
+.media{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    padding-top: 10px;
+    padding-left: 100px;
+}
+
+.right{
+    height: 500px;
+    width: 400px;
+}
+
+.right-media{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.skills{
+    padding: 5px 30px 5px 30px;
+    border: 0.5px solid #6d6868;
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    
+}
+
+.skills:hover{
+    background-color: #0050ff;
+    color: white;
+    transition: 0.3s;
+}
+
+
+/* resume section------------------------------- */
+
+
+/* footer section  ------------------------------------------------------*/
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.sub-footer{
+    
+    display: flex;
+    gap: 60px;
+
+}
+
+
+/* responsive section----------------------------------------------------------------- */
